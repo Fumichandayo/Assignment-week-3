@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!--link to bootstrap style sheet-->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <!--nav bar is applied as assignment instruction-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Fumi's Choice</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Home Nav bar is connecting to the first HTML page-->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <!-- Details on Nav Bar is connecting to second page of HTML -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Details</a>
+          </li>
+          <!-- Order on Nav Bar is connecting to third page of HTML -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Order</a>
+          </li>
+        </ul>
+
+        <!-- Search button with using format -->
+
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Inserted image with bootstrap grid system -->
+    <div class="image-container">
+      <img
+        src="https://i.pinimg.com/originals/8e/8a/8a/8e8a8a020373765956722750882bdb7a.png"
+        class="img-fluid"
+        alt="Responsive image"
+      />
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
